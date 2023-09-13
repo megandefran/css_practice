@@ -13,13 +13,48 @@ h1{
 }
 h2{
     font-size:30px;
-    color: #0D0D0D; 
+    color: #C4C4C4; 
 }
-p{font-size:24px;
+p{
+    font-size:24px;
     padding-top: 10px;
     padding-left: 10px;
+    color:#C4C4C4;
 }
 img{
     width: 250px;
-    
+    display:flex;
+    border:dashed 10px white;
+}
+div{
+    height: auto;
+    min-height: 125px;
+    display: flex;
+    padding: 20px;
+    border: solid 3px white;
+}
+.introduction{
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2;
+    border-style: solid;
+}
+.red{
+    background-color:#FF0000;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px;
+    border-left: 5px;
+    border-style: solid;
+    border-width: 0px 0px 5px 2px;
+}
+.blue{
+    background-color:#0000FF;
+    text-align: left;
+    margin-right: 50px;
+    border-style: solid;
+    border-width: 2px 5px 0px 0px;
+}
+.yellow{
+    background-color:#FFFF00;
 }
